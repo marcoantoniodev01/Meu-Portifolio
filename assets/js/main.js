@@ -40,10 +40,10 @@ const darkImageSrc = 'https://i.ibb.co/PskDFNmk/rubrica-preta.png'   // Para fun
 
 // Caminhos das imagens da FOTO PRINCIPAL (TERNO)
 // Modo Escuro (Fundo preto) -> Terno Cinza Claro
-const graySuitSrc = 'https://i.ibb.co/HLGHGPSk/eu.png' 
+const graySuitSrc = 'https://i.ibb.co/sdCG3M9m/Eu-de-terno.png' 
 
 // Modo Claro (Fundo branco/clear-theme) -> Terno Preto
-const blackSuitSrc = 'https://i.ibb.co/Q7tgGLZN/eu-CINZA.png' 
+const blackSuitSrc = 'https://i.ibb.co/7dH35qMr/Eu-de-terno-cinza.png' 
 
 // Funções auxiliares
 const getCurrentTheme = () => document.body.classList.contains(darkThemeClass) ? 'dark' : 'light'
