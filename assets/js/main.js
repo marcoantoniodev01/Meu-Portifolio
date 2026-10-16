@@ -43,7 +43,7 @@ const darkImageSrc = 'https://i.ibb.co/PskDFNmk/rubrica-preta.png'   // Para fun
 const graySuitSrc = 'https://i.ibb.co/sdCG3M9m/Eu-de-terno.png' 
 
 // Modo Claro (Fundo branco/clear-theme) -> Terno Preto
-const blackSuitSrc = 'https://i.ibb.co/SXbFRzVG/Eu-de-terno-cinza.png' 
+const blackSuitSrc = 'https://i.ibb.co/DTjcjvD/Eu-de-terno-cinza.png' 
 
 // Funções auxiliares
 const getCurrentTheme = () => document.body.classList.contains(darkThemeClass) ? 'dark' : 'light'
