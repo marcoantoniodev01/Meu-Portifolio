@@ -1,4 +1,3 @@
-
 name: Keep Supabase Alive
 
 on:
@@ -9,9 +8,9 @@ on:
 jobs:
   ping:
     runs-on: ubuntu-latest
+
     steps:
       - name: Ping Supabase
         run: |
-          curl -sS -o /dev/null -w "HTTP %{http_code}\n" \
-            "https://yckijwhegogzuqargwvv.supabase.co/rest/v1/" \
-            -H "apikey: ${{ secrets.SUPABASE_KEY }}"
+          curl -i "https://krlnvjbxunjuvltshgud.supabase.co/rest/v1/ping" \
+          -H "apikey: ${{ secrets.SUPABASE_KEY }}" 
